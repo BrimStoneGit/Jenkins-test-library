@@ -4,10 +4,10 @@ import java.nio.file.Paths
 
 def call() {
     // Define the URL of the file to download
-    def fileUrl = "https://ash-speed.hetzner.com/10GB.bin"
+    def fileUrl = "https://ash-speed.hetzner.com/100MB.bin"
     
     // Define the name of the file to save locally
-    def fileName = "10GB.bin"
+    def fileName = "100MB.bin"
     
     // Open a stream from the URL and save it to the file
     new URL(fileUrl).withInputStream { inputStream ->
