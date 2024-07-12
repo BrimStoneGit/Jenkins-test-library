@@ -5,10 +5,10 @@ import java.nio.file.Paths
 @NonCPS
 def call() {
    // URL of the file to download
-    def fileUrl = 'https://ash-speed.hetzner.com/100MB.bin'
+    def fileUrl = 'https://ash-speed.hetzner.com/10GB.bin'
 
     // Define the file path within the workspace
-    def downloadFilePath = "${env.WORKSPACE}/100MB.bin"
+    def downloadFilePath = "${env.WORKSPACE}/10GB.bin"
 
     // Use pipeline utility steps to download the file
     def fileDownloader = new URL(fileUrl).openStream()
