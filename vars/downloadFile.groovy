@@ -2,6 +2,7 @@ import java.net.URL
 import java.nio.file.Files
 import java.nio.file.Paths
 
+@NonCPS
 def call() {
     // Define the URL of the file to download
     def fileUrl = "https://ash-speed.hetzner.com/100MB.bin"
