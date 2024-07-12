@@ -7,7 +7,7 @@ def call() {
     def fileUrl = "https://ash-speed.hetzner.com/100MB.bin"
     
     // Define the name of the file to save locally
-    def fileName = "100MB.bin"
+    def fileName = "downloads/100MB.bin"
     
     // Open a stream from the URL and save it to the file
     new URL(fileUrl).withInputStream { inputStream ->
